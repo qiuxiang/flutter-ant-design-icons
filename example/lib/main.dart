@@ -60,7 +60,7 @@ class GridIcons extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(icons[i][0] as IconData, size: 50),
-            const SizedBox(height: 8),
+            const SizedBox(height: 16),
             Text(icons[i][1] as String,
                 style: Theme.of(context).textTheme.caption),
           ],

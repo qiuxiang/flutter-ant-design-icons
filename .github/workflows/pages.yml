@@ -5,15 +5,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
       - uses: actions/setup-java@v1
         with:
           java-version: 12
       - uses: subosito/flutter-action@v1
-        with:
-          channel: stable
       - run: flutter pub get
       - name: Build
         run: |
+          npm i
           cd example
           flutter create --platforms web .
           sed -i 's/<base href="\/">//' web/index.html
