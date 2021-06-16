@@ -5,7 +5,7 @@ class FilledAntdIconsData extends IconData {
       : super(
           code,
           fontFamily: 'FilledAntdIcons',
-          fontPackage: 'ant_design_icons',
+          fontPackage: 'flutter_antd_icons',
         );
 }
 
@@ -14,7 +14,7 @@ class OutlinedAntdIconsData extends IconData {
       : super(
           code,
           fontFamily: 'OutlinedAntdIcons',
-          fontPackage: 'ant_design_icons',
+          fontPackage: 'flutter_antd_icons',
         );
 }
 

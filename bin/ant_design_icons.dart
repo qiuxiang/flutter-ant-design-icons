@@ -21,7 +21,7 @@ void main() async {
   output += await generateFont('filled');
   output += await generateFont('outlined');
   output += '}';
-  const outputFile = 'lib/ant_design_icons.dart';
+  const outputFile = 'lib/flutter_antd_icons.dart';
   await File(outputFile).writeAsString(output);
   await formatDartFile(outputFile);
 }
@@ -43,7 +43,7 @@ Future<String> generateFont(String type) async {
   Map<String, dynamic> json = jsonDecode(await file.readAsString());
   var output = '';
   var icons = '''
-    import 'package:ant_design_icons/ant_design_icons.dart';
+    import 'package:flutter_antd_icons/flutter_antd_icons.dart';
     const ${type}Icons = [
   ''';
   json.forEach((key, value) {
@@ -67,7 +67,7 @@ String generateIconDataClass(String type) {
           : super(
               code,
               fontFamily: '${type}AntdIcons',
-              fontPackage: 'ant_design_icons',
+              fontPackage: 'flutter_antd_icons',
           );
     }
   ''';

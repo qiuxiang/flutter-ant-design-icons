@@ -1,4 +1,4 @@
-# ant_design_icons
+# flutter_antd_icons
 
 flutter package of ant design icons, generated from
 [official package](https://www.npmjs.com/package/@ant-design/icons-svg),

@@ -9,7 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  ant_design_icons:
+  flutter_antd_icons:
     path: ..
 
 flutter:

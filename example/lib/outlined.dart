@@ -1,4 +1,4 @@
-import 'package:ant_design_icons/ant_design_icons.dart';
+import 'package:flutter_antd_icons/flutter_antd_icons.dart';
 
 const outlinedIcons = [
   [AntdIcons.account_book_outlined, 'account_book_outlined'],

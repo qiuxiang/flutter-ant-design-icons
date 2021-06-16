@@ -1,4 +1,4 @@
-name: ant_design_icons
+name: flutter_antd_icons
 description: flutter package of ant design icons, generated from [official package](https://www.npmjs.com/package/@ant-design/icons-svg), support filled and outlined style icons.
 version: 0.0.1
 homepage: https://github.com/qiuxiang/flutter-ant-design-icons
