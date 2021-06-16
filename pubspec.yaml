@@ -1,0 +1,22 @@
+name: ant_design_icons
+description: flutter package of ant design icons, generated from [official package](https://www.npmjs.com/package/@ant-design/icons-svg), support filled and outlined style icons.
+version: 0.0.1
+homepage: https://github.com/qiuxiang/ant_design_icons
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: FilledAntdIcons
+      fonts:
+        - asset: asset/filled_antd_icons.ttf

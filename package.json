@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"@ant-design/icons-svg": "^4.1.0",
+		"fantasticon": "^1.2.2"
+	}
+}
