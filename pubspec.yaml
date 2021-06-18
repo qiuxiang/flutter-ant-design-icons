@@ -20,3 +20,6 @@ flutter:
     - family: FilledAntdIcons
       fonts:
         - asset: asset/filled_antd_icons.ttf
+    - family: OutlinedAntdIcons
+      fonts:
+        - asset: asset/outlined_antd_icons.ttf

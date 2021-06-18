@@ -48,8 +48,10 @@ Future<String> generateFont(String type) async {
   ''';
   json.forEach((key, value) {
     final name = '${key.replaceAll('-', '_')}_$type';
-    output +=
-        'static const IconData $name = ${upperFirst(type)}AntdIconsData($value);';
+    output += '''
+      /// ${upperFirst(type)} ant design icon named "$name"
+      static const IconData $name = ${upperFirst(type)}AntdIconsData($value);
+    ''';
     icons += "[AntdIcons.$name, '$name'],";
   });
   icons += '];';
